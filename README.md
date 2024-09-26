@@ -43,19 +43,19 @@ The second part consists of a TCP client that connects to the server and allows 
 2. **Compiling the Code:**
    - Use the following commands to compile the TCP server-client code:
      ```bash
-     gcc -o tcp_server tcp_server.c -lpthread
-     gcc -o tcp_client tcp_client.c -lpthread
+     gcc -o chat_server chat_server.c -lpthread
+     gcc -o chat_client chat_client.c -lpthread
      ```
    - Replace `tcp_server.c` and `tcp_client.c` with the respective filenames of your code.
 
 3. **Running the Server and Client:**
    - First, run the server in one terminal:
      ```bash
-     ./tcp_server
+     ./chat_server
      ```
    - Then, run the client in another terminal:
      ```bash
-     ./tcp_client
+     ./chat_client
      ```
 
 ### Usage
